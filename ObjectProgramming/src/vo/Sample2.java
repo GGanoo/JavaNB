@@ -27,22 +27,25 @@ class sword extends weapon{
 	public sword() {
 		this.type="칼";
 		this.damage=100;
-		System.out.println("타입:"+this.type+", 데미지는"+this.damage);
+		System.out.println("타입:" + this.type + ", 데미지는" + this.damage);
 	}
 	public sword(int dmg) {
 		this.type="칼";
 		this.damage=dmg;
-		System.out.println("타입:"+this.type+", 데미지는"+this.damage);
+		System.out.println("타입:" + this.type +", 데미지는" + this.damage);
 	}
 	public sword(String type) {
 		this.type=type;
 		this.damage=100;
-		System.out.println("타입:"+this.type+", 데미지는"+this.damage);
+		System.out.println("타입:" + this.type + ", 데미지는" + this.damage);
 	}
 	public sword(String type,int dmg) {
 		this.type=type;
 		this.damage=dmg;
-		System.out.println("타입:"+this.type+", 데미지는"+this.damage);
+		System.out.println("타입:" + this.type + ", 데미지는" + this.damage);
+	}
+	void setDamage(int damage) {
+		this.damage=damage;
 	}
 }
 class gun extends weapon{
@@ -52,7 +55,7 @@ class gun extends weapon{
 		this.type="총";
 		this.damage=100;
 		this.bullet=60;
-		System.out.println("총(이)가 생성되었습니다. 아무 기능 X 타입은:"+this.type+", 데미지는"+this.damage+", 이 총의 탄약은"+this.bullet+"발");
+		System.out.println("총(이)가 생성되었습니다. 아무 기능 X 타입은:" + this.type + ", 데미지는" + this.damage + ", 이 총의 탄약은" + this.bullet + "발");
 	}
 }
 class bomb extends weapon{
