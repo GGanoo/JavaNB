@@ -22,7 +22,7 @@ public class Ex1 {
 				for(int num = 1 ; num <= 9 ; num++) {
 					System.out.printf("%d * %d = %d\n" , input, num, input * num);			// System.out.printf("%d * %d = %d\n" , input, num);
 				}																			// input 과  num 의 곱의 합을 미입력함
-				break;																// 종료문 미개입
+				break;																		// 종료문 미개입
 			}else {
 				System.out.println("2이상 9이하의 정수만 입력해주세요.");
 			}
