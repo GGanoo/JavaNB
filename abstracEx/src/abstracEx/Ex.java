@@ -2,6 +2,7 @@ package abstracEx;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Scanner;
 
 public class Ex {
 
@@ -38,18 +39,25 @@ public class Ex {
 		//b[000002]도 있어야 하기 때문에
 		//둘이 다른 상태로 존재한다.
 		
-		
-		
-		
-		
-		
-		
 		a.add(4);
 		System.out.println(a);
 		System.out.println(b);
 		System.out.println(a == b);
-		
-		
 	}
 
+	
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 }

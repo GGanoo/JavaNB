@@ -69,8 +69,7 @@ public class BookMain {
 		
 //		bookId = Integer.parseInt(bookIdStr); // Integer.parseInt : String 형태의 숫자를 int 형태의 숫자로 바꿔준다. 많이 사용함
 		
-		
-		
+			
 		//System.out.println(DateTimeUtil.getDateTime());
 		
 //		for(;true;) {

@@ -66,55 +66,55 @@ class MaxListCalculator extends Calculator {
 	
 }
 
-public class AbstractExample {
-
-	public static void main(String[] args) {
-		Calculator cal = new Calculator();
-		cal.add(10);
-		System.out.println(cal.getValue());
-		System.out.println(cal.isOdd(3)); // 3홀수 : true
-		System.out.println(cal.isOdd(4)); // 4홀수 : false
-		
-		//배열로 받는 파라미터의 평균을 정수 리턴
-		int[] data = {1,3,5,7,9};
-		int result1 = cal.avg(data1);
-		System.out.println(result1);
-		
-		ArrayList<Integer> data2 = new ArrayList<>(Arrays.asList(1,3,5,7,9));
-		int result2 = cal.avg(data2);
-		System.out.println(result2);
-		
-		//계산기.평균구하기()를 만드는데,
-		//계산기.평균구하기(입력값이 배열)
-		//계산기.평균구하기(입력값이 리스트)
-		//이거를 만들어보세요 (오버로딩)
-		UpgradeCalculator ucal = new UpgradeCalculator();
-		
-		ucal.add(10);
-		ucal.minus(3);
-		System.out.println(ucal.getValue()); // 7
-
-	
-		
-	
-	// UpgradeCalculator 클래스를 만들고
-	// 값을 뺄 수 있는 minus 메서드를 추가하자.
-
-
-	
-	
-	
-	
-	ArrayList<Integer> a = new ArrayList<Integer>(Arrays.asList(1,2,3));
-	ArrayList<Integer> b = a;
-	
-	a.add(4);
-	
-	System.out.println(a == b);
-	
-	}
-	
-	
+//public class AbstractExample {
+//
+//	public static void main(String[] args) {
+//		Calculator cal = new Calculator();
+//		cal.add(10);
+//		System.out.println(cal.getValue());
+//		System.out.println(cal.isOdd(3)); // 3홀수 : true
+//		System.out.println(cal.isOdd(4)); // 4홀수 : false
+//		
+//		//배열로 받는 파라미터의 평균을 정수 리턴
+//		int[] data = {1,3,5,7,9};
+//		//int result1 = cal.avg(data1);
+//		//System.out.println(result1);
+//		
+//		ArrayList<Integer> data2 = new ArrayList<>(Arrays.asList(1,3,5,7,9));
+//		int result2 = cal.avg(data2);
+//		System.out.println(result2);
+//		
+//		//계산기.평균구하기()를 만드는데,
+//		//계산기.평균구하기(입력값이 배열)
+//		//계산기.평균구하기(입력값이 리스트)
+//		//이거를 만들어보세요 (오버로딩)
+//		UpgradeCalculator ucal = new UpgradeCalculator();
+//		
+//		ucal.add(10);
+//		ucal.minus(3);
+//		System.out.println(ucal.getValue()); // 7
+//
+//	
+//		
+//	
+//	// UpgradeCalculator 클래스를 만들고
+//	// 값을 뺄 수 있는 minus 메서드를 추가하자.
+//
+//
+//	
+//	
+//	
+//	
+//	ArrayList<Integer> a = new ArrayList<Integer>(Arrays.asList(1,2,3));
+//	ArrayList<Integer> b = a;
+//	
+//	a.add(4);
+//	
+//	System.out.println(a == b);
+//	
+//	}
+//	
+//}
 	
 	
 	

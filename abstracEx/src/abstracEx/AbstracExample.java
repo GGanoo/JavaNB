@@ -1,5 +1,7 @@
 package abstracEx;
 
+import abstracEx2.Computer;
+
 abstract class Computer {
 	abstract void display();
 	abstract void type();
@@ -42,16 +44,16 @@ class NoteBook extends Computer {
 	
 }
 
-public class AbstracExample {
-
-	public static void main(String[] args) {
-		Computer noteBook = new NoteBook();
-		noteBook.display();
-		noteBook.type();
-		noteBook.turnOn();
-		noteBook.turnOff();
-		Computer deskTop = new DeskTop();
-		String Key = Constants.API_KEY;
-	}
-
-}
+//public class AbstracExample {
+//
+//	public static void main(String[] args) {
+//		Computer noteBook = new NoteBook();
+//		noteBook.display();
+//		noteBook.type();
+//		noteBook.turnOn();
+//		noteBook.turnOff();
+//		Computer deskTop = new DeskTop();
+//		String Key = Constants.API_KEY;
+//	}
+//
+//}
