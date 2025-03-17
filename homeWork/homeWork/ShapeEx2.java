@@ -1,6 +1,16 @@
 package homeWork;
 
 public class ShapeEx2 {
+	
+	static double sumArea(Shape[] arr) {
+		double sum = 0;
+		
+		for (int i = 0; I < arr.length; i++) {
+			sum += arr[i].calcArea
+		}
+		
+		return sum;
+	}
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -13,7 +23,7 @@ public class ShapeEx2 {
 		 *  매개변수 : Shape[] arr
 		 */
 		
-		Shape[] arr = {new Cirlce(5.0), new Rectangle(3,4), new Cirlce(1);
+		Shape[] arr = {new Circle(5.0), new Rectangle(3,4), new Circle(1)};
 		System.out.println("면적의 합 : " + sumArea(arr));
 		
 		/**

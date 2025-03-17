@@ -5,8 +5,16 @@ package homeWork;
  * 이 코드를 상속받도록 코드를 변경하세요.
  */
 
+abstract class Unit {
+	int x;
+	int y;
+	abstract void move(int x, int y);
+	abstract void stop();
+}
+
+
 // 보병
-class Marine {
+class Marine extends Unit {
 	// 현재위치
 	int x;
 	int y;
@@ -22,7 +30,7 @@ class Marine {
 	}
 }
 // 탱크
-class Tank {
+class Tank extends Unit {
 	// 현재위치
 	int x;
 	int y;
@@ -38,7 +46,7 @@ class Tank {
 	}
 }
 // 수송선
-class Dropship {
+class Dropship extends Unit{
 	// 현재위치
 	int x;
 	int y;
