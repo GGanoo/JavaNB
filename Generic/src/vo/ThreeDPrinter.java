@@ -1,6 +1,6 @@
 package vo;
 
-public class ThreeDPrinter<T> {
+public class ThreeDPrinter<T extends material> {
 	private T material;
 
 	public T getMaterial() {

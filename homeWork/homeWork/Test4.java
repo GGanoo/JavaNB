@@ -43,7 +43,7 @@ public class Test4 {
 		for (Method item : methods) {
 			System.out.println(item);
 		}
-		
+		}}
 	}
 
 }
