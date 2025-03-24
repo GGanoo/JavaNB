@@ -3,7 +3,7 @@ package testing;
 import java.util.Random;
 
 public class Test01 {
-	// 이전의 gradeCalculator 메서드 유지
+	// 이전의 gradeCalculator 메서드 유지//
     public static void gradeCalculator(String name, int score) {
         System.out.print(name + "의 점수: " + score + " - ");
         
