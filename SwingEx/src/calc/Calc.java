@@ -47,7 +47,7 @@ public class Calc extends JFrame implements ActionListener {
             this.btns.addActionListener(this);
             this.panel.add(this.btns);
         }
-
+//test
         this.panel.setLayout(new GridLayout(4, 3, 6, 6));
         this.add(BorderLayout.CENTER, panel);
         this.add(BorderLayout.NORTH, panel2);
