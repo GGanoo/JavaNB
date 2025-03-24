@@ -24,7 +24,7 @@ public class SwingEx extends JFrame {
 	JPanel jpanel = new JPanel();
 	
 	
-	
+	//tt
 	public SwingEx() {
 		// 제목 설정
 		super("계산기");
