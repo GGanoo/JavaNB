@@ -1,5 +1,5 @@
 
-public class moon {
+public class ArrayListEx {
 
 	public static void main(String[] args) {
 		int numOfApples = 123; // 사과의 갯수
