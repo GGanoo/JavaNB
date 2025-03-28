@@ -14,7 +14,7 @@ public class Test1 {
 	
 	Scanner sc = new Scanner(System.in);
 	
-	//List<String> ipInfoList = null;    //
+	//List<String> ipInfoList = null;    
 	List<IPInfo> ipInfoList = new ArrayList<IPInfo>(); // 배열됨
 	
 	ipInfoList.add(new IPInfo("123.123.123.123", "홍길동"));
