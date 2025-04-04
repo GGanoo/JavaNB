@@ -14,10 +14,10 @@ public class StreamBasic02 {
 		
 			String value = "InputStream 은 바이트 단위로 데이터를 처리한다.";
 			
-			for (int i = 1; i < 11 ; i++) { 
+			for (int i = 0; i < 31 ; i++) { 
 				String data = i + "번째 줄 입니다.\r\n";
 				write.write(value.charAt(i));
-						
+						System.out.println(i);
 			}
 			write.close();
 					
