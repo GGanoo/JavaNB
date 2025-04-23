@@ -12,7 +12,7 @@ import java.util.Scanner;
 public class class001 { //★★★클래스이름확인
 	static final String DB_ID="scott";
 	static final String DB_PW="tiger";
-	static final String DB_IP="200.200.200.62";//★★★여기 IP 바꾸기 > localhost
+	static final String DB_IP="localhost";//★★★여기 IP 바꾸기 > localhost
 	static final String DB_PORT="1521";
 	public static void main(String[] args) {
 		//(공통변수)====================================================================================================================

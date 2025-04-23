@@ -87,7 +87,7 @@ public class EmpDAO {
 		List<EmpVO> list = new ArrayList<>();
 		try {
 			// 2. 쿼리 실행
-			String query = " SELECT EMPNO, ENAME, JOB, MGR, HIREDATE, SAL, COMM, DEPTNO FROM EMP ";
+			String query = "SELECT EMPNO, ENAME, JOB, MGR, HIREDATE, SAL, COMM, DEPTNO FROM EMP ";
 			pstmt = conn.prepareStatement(query);
 			rSet = pstmt.executeQuery();
 			
